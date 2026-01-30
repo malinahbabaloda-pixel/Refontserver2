@@ -44,7 +44,7 @@ app.post("/contact", (req, res) => {
 });
 
 
-// La fin d' API  pour le contact
+// L' API  pour le Rappel
 
 app.post("/rappel", (req, res) => {
     const { nom, tel, mail, rappel, check } = req.body;
